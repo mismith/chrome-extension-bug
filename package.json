@@ -1,0 +1,13 @@
+{
+  "name": "chrome-extension-bug",
+  "version": "0.0.0",
+  "main": "./dist/manifest.json",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "rollup-plugin-chrome-extension": "^4.0.1-18",
+    "vite": "^2.8.6"
+  }
+}
